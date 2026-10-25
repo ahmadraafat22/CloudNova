@@ -52,16 +52,15 @@
 
 Add screenshots to `docs/screenshots/` and replace each placeholder below with the corresponding Markdown image. **Redact public IPs, account numbers, ARNs, resource IDs, email addresses, credentials, and customer data before adding screenshots to a public repository.**
 
-| Screenshot | Suggested file | Placeholder |
+| Screenshot | Suggested file | Image |
 |:---|:---|:---|
-| Lumina home page / catalogue | `docs/screenshots/lumina-homepage.png` | **Add:** the storefront with the book catalogue visible. |
-| Search, category filter, and cart | `docs/screenshots/lumina-shopping.png` | **Add:** a representative search/filter and cart view. |
-| Checkout demo | `docs/screenshots/lumina-checkout.png` | **Add:** the demo checkout form; use fictional customer information. |
-| ALB target health | `docs/screenshots/alb-target-health.png` | **Add:** AWS Console evidence with healthy targets; redact account and resource identifiers. |
-| ASG recovery activity | `docs/screenshots/asg-activity.png` | **Add:** the replacement-instance activity with identifiers redacted. |
-| Monitoring / notifications | `docs/screenshots/cloudwatch-sns.png` | **Add:** alarm state and a sanitized SNS email notification. |
-| Backup and restore evidence | `docs/screenshots/backup-restore.png` | **Add:** sanitized S3 archive listing and/or restore-test output. |
-
+| Lumina home page / catalogue | `docs/screenshots/lumina-homepage.png` | ![Lumina home page](docs/screenshots/lumina-homepage.png) |
+| Search, category filter, and cart | `docs/screenshots/lumina-shopping.png` | ![Search, category filter, and cart](docs/screenshots/lumina-shopping.png) |
+| Checkout demo | `docs/screenshots/lumina-checkout.png` | ![Checkout demo](docs/screenshots/lumina-checkout.png) |
+| ALB target health | `docs/screenshots/alb-target-health.png` | ![ALB target health](docs/screenshots/alb-target-health.png) |
+| ASG recovery activity | `docs/screenshots/asg-activity.png` | ![ASG recovery activity](docs/screenshots/asg-activity.png) |
+| Monitoring / notifications | `docs/screenshots/cloudwatch-sns.png` | ![Monitoring and notifications](docs/screenshots/cloudwatch-sns.png) |
+| Backup and restore evidence | `docs/screenshots/backup-restore.png` | ![Backup and restore evidence](docs/screenshots/backup-restore.png) |
 For example, after adding the homepage image, replace its placeholder with:
 
 ```markdown
