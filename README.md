@@ -87,7 +87,8 @@ flowchart TB
 
     subgraph DATA[Data VPC]
         DB[(PostgreSQL 18\nPrivate EC2 instance)]
-        BackupServer -->|Automated take Sanpshot every 1 from EC2|S3 [ahmedxraafat1]
+        BackupServer -->|Automated take Sanpshot every 1 from EC2|S3
+        N-->S3[ahmedxraafat1]
     end
 
     subgraph OPS[Ops VPC]
