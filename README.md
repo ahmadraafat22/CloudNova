@@ -61,7 +61,7 @@ Add screenshots to `docs/screenshots/` and replace each placeholder below with t
 | ASG recovery activity | `docs/screenshots/asg-activity.png` | ![ASG recovery activity](docs/screenshots/asg-activity.png) |
 | Monitoring / notifications | `docs/screenshots/cloudwatch-sns.png` | ![Monitoring and notifications](docs/screenshots/cloudwatch-sns.png) |
 | Backup and restore evidence | `docs/screenshots/backup-restore.png` | ![Backup and restore evidence](docs/screenshots/backup-restore.png) |
-For example, after adding the homepage image, replace its placeholder with:
+
 
 ```markdown
 ![Lumina bookstore homepage](docs/screenshots/lumina-homepage.png)
