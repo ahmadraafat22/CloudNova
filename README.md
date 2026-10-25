@@ -54,7 +54,6 @@ Add screenshots to `docs/screenshots/` and replace each placeholder below with t
 
 | Screenshot | Suggested file | Placeholder |
 |:---|:---|:---|
-| Architecture diagram | `docs/screenshots/architecture.png` | **Add:** a diagram showing the three VPCs, Transit Gateway, ALB, private instances, EFS, S3 endpoints, CloudWatch, and SNS. |
 | Lumina home page / catalogue | `docs/screenshots/lumina-homepage.png` | **Add:** the storefront with the book catalogue visible. |
 | Search, category filter, and cart | `docs/screenshots/lumina-shopping.png` | **Add:** a representative search/filter and cart view. |
 | Checkout demo | `docs/screenshots/lumina-checkout.png` | **Add:** the demo checkout form; use fictional customer information. |
