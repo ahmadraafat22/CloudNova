@@ -104,7 +104,6 @@ flowchart TB
     B -. Administrative SSH through controlled rules .-> BK
     ASG -. Metrics and alarms .-> CW
     DB -. Metrics and alarms .-> CW
-    BK -. Metrics and alarms .-> CW
 ```
 
 ### Request and operations flows
