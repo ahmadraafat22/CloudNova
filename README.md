@@ -85,7 +85,6 @@ flowchart TB
 
     subgraph DATA[Data VPC]
         DB[(PostgreSQL 18\nPrivate EC2 instance)]
-        BackupServerEC2 -->|Automated take Sanpshot every 1 H from EC2|S3[S3:ahmedxraafat1]
     end
 
     subgraph OPS[Ops VPC]
@@ -94,7 +93,7 @@ flowchart TB
         S3BACKUP[S3 backup bucket\nvia S3 Gateway Endpoint]
         CW[Amazon CloudWatch]
         SNS[Amazon SNS\nOperations email]
-        BK -->|Scheduled file archives| S3BACKUP
+        BK -->|Scheduled file archives every 1H| S3BACKUP
         CW --> SNS
     end
 
